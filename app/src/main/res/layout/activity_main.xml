@@ -8,7 +8,7 @@
     android:background="@color/background"
     android:orientation="vertical"
     android:padding="20dp"
-    android:gravity="center_horizontal"
+    android:gravity="center"
     tools:context=".MainActivity">
 
     <TextView
@@ -69,7 +69,7 @@
         android:id="@+id/selected_date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="14/9/2021"
+        android:text="01/01/1970"
         android:layout_marginTop="16dp"
         android:textSize="20sp"
         android:textColor="@color/color_text"
@@ -94,9 +94,10 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/age_in_minutes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="1440"
+        android:text="0000"
         android:layout_marginTop="16dp"
         android:textSize="35sp"
         android:textColor="@color/color_text"
